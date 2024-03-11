@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+      "outDir": "./dist",
+      "noImplicitAny": true,
+      "module": "ESNext",
+      "target": "es5",
+      "jsx": "react-jsx",
+      "allowJs": true,
+      "moduleResolution": "node",
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
+      "baseUrl": ".",
+      "paths": {
+        // it will change all paths starting with @/ for "./src"
+        "@/*": ["./src/*"]
+      }
+    },
+    "ts-node": {
+      "compilerOptions": {
+        "module": "CommonJS"
+      }
+    }
+  }
